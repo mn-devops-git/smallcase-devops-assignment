@@ -1,6 +1,0 @@
-# Terraform generated files and directories
-.terraform/
-.terraform.lock.hcl
-
-# Private keys - NEVER commit these
-*.pem
