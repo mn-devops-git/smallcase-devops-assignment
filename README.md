@@ -37,7 +37,6 @@ json
 3. terraform apply -auto-approve  --Creates or updates infrastructure without asking for confirmation.
 
 Security
-
 private PEM file are generated via Terraform (but excluded from repo)
 
 
