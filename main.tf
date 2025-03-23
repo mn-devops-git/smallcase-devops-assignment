@@ -60,7 +60,7 @@ resource "aws_security_group" "allow_ssh_http" {
   }
 }
 
-# Fetch dynamic Amazon Linux 2 AMI
+# Fetching dynamic Amazon Linux 2 AMI
 data "aws_ami" "amazon_linux" {
   most_recent = true
   owners      = ["amazon"]
@@ -96,7 +96,7 @@ resource "aws_instance" "web" {
   }
 }
 
-# Output EC2 public IP
+# Output EC2 public IP of the instance
 output "instance_public_ip" {
   value = aws_instance.web.public_ip
 }
