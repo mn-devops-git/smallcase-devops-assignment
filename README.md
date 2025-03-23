@@ -43,5 +43,3 @@ private PEM file are generated via Terraform (but excluded from repo)
 Mallikarjun.M
 Senior DevOps Engineer
 GitHub: mndevopsgit
-
-
