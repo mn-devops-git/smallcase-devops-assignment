@@ -1,6 +1,6 @@
 Smallcase DevOps Assignment
 
-This repository showcases a fully automated infrastructure deployment using Terraform, AWS, and Docker, as part of the Smallcase DevOps assignment.
+This repository provides fully automated infrastructure deployment using Terraform, AWS, and Docker(pythonapp) as part of the Smallcase DevOps assignment.
 
 Project Structure
 
@@ -21,7 +21,7 @@ Project Structure
 
 Once deployed, open in browser:
 
-http://<EC2_PUBLIC_IP>:8081/api/v1
+http://EC2_PUBLIC_IP:8081/api/v1
 
 
 Example response:
